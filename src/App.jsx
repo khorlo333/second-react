@@ -1,7 +1,14 @@
-import React from "react";
+import "./app.css";
 
+function Card() {
+  return <div id="card">Card</div>;
+}
 const App = () => {
-  return <div>Hello!</div>;
+  return (
+    <div>
+      <Card />
+    </div>
+  );
 };
 
 export default App;
