@@ -1,5 +1,24 @@
 #card {
-  width: 100px;
-  height: 200px;
+  min-width: 400px;
+  height: 90%;
   background-color: aquamarine;
+  overflow: hidden;
+}
+#cards {
+  display: flex;
+  width: 500px;
+  height: 900px;
+  gap: 10px;
+  overflow-x: scroll;
+}
+#header {
+  width: 500px;
+  display: flex;
+  align-self: center;
+  justify-self: flex-start;
+}
+#card#img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
 }
